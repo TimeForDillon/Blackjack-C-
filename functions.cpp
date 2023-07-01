@@ -22,7 +22,7 @@ void startPlayerDraw(string &cardName, // IN - string name of card
     // OUTPUT - player's cards and initial total
     cout << "Your cards are: \n";
     // PROCESSING - deal twice
-    for(int i=0;i<2;i++)
+    for(int i = 0; i < 2; i++)
     {
         // draw_card - draws card to player
         playerScore += draw_card(cardName,playerScore);
